@@ -1,0 +1,57 @@
+.button {
+    border-radius: 20px;
+}
+
+/* Container holding the image and the text */
+.container_icon {
+    position: relative;
+
+  }
+  
+  /* Bottom */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top */
+  .top-right {
+    position: absolute;
+    top: -30px;
+    right: 170px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 135px;
+    left: 0px;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+    }
+    
+    .slick-slide img {
+    width: 100%;
+    }
+    
+    .slick-prev:before,
+    .slick-next:before {
+    color: black !important;
+    }
+    
+    
+    .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+    }
+    
+    .slick-active {
+    opacity: .5;
+    }
+    
+    .slick-current {
+    opacity: 1;
+    }
